@@ -74,6 +74,9 @@ main{
     margin: auto;
     background-color: rgba(0, 0, 0, 0.74);
     padding: 1px;
+    height: 100vh;
+
+    
   
     
    
@@ -83,21 +86,21 @@ main{
     
 }
 
-main > div {
-    display: block;
-    margin: auto;
+
   
   
     
  
  
 
-}
+
 
 main > div > h1{
 
     color: white;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.733);
+   font-size: 2em;
+   padding: 5px;
 
     
     
@@ -111,7 +114,7 @@ main > div > h1{
 
 #textos{
 
-    height: 430px;
+    
     margin-top: 10px;
     padding: 10px;
  
@@ -130,9 +133,10 @@ main > div > a {
     display: block;
     margin: auto;
     padding: 10px;
-   
- 
+    background-color: rgba(0, 0, 0, 0.425);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.425);
     border: 1px solid black;
+    
     text-align: center;
     text-decoration: none;
     color: white;
