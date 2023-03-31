@@ -74,7 +74,7 @@ main{
     margin: auto;
     background-color: rgba(0, 0, 0, 0.74);
     padding: 1px;
-    height: 100vh;
+  
     
    
 
@@ -86,6 +86,7 @@ main{
 main > div {
     display: block;
     margin: auto;
+  
   
     
  
@@ -130,7 +131,7 @@ main > div > a {
     margin: auto;
     padding: 10px;
    
-    background-color: rgba(0, 0, 0, 0.87) ;
+ 
     border: 1px solid black;
     text-align: center;
     text-decoration: none;
