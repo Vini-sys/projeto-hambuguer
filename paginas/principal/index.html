@@ -5,30 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hamburgueria</title>
+    <link rel="stylesheet" href="../../estilos/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 </head>
 <body>
 
     <header>
-        <h1>HABURGUERIA</h1>
-        <nav>
-            <a href="index.html">Inicio</a>
-            <a href="../menu/index.html">Menu</a>
-            <a href="https://api.whatsapp.com/send/?phone=5588992586605&text&type=phone_number&app_absent=0" target="_blank">Contatos</a>
+        <h1>HAMBURGUERIA</h1>
+        <span onclick="clickmenu()" id="menu" class="material-icons">menu</span>
+        <nav id="itens">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                
+                <li><a href="../menu/index.html">Menu</a></li>
+                
+                <li><a href="https://api.whatsapp.com/send/?phone=5588992586605&text&type=phone_number&app_absent=0" target="_blank">Contatos</a></li>
+            </ul>
             
         </nav>
     </header>
 
     <main>
-        <h1>Faça seu pedido!</h1>
-
-        <p>Bem-vindo a Hamburgueria! Aqui proporcionamos lanches de qualidade.
-        </p>
-
-        <p>Veja as opções abaixo!</p>
-
-        <a href="../menu/index.html">Cardápio</a>
-        <a href="../destaques/index.html">Destaques </a>
+        <div>
+            <h1>Faça seu pedido!</h1>
+            <section id="textos">
+                <p>Bem-vindo à Hamburgueria! Aqui proporcionamos lanches de qualidade.
+                </p>
+                <p>Veja as opções abaixo!</p>
+            </section>
+            <a id="cardapio" href="../menu/index.html"><p>Cardápio</p></a>
+            <a id="destaques" href="../destaques/index.html"><p>Destaques</p> </a>
+        
+        </div>
     </main>
+
+
+    
     
 </body>
+<script>
+    function clickmenu(){
+        if (itens.style.display == "block") {
+            itens.style.display = "none"
+        }
+
+        else
+        
+        {itens.style.display = "block"}
+      
+    
+    } 
+</script>
 </html>
