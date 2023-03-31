@@ -77,13 +77,6 @@ main{
     height: 100vh;
 
     
-  
-    
-   
-
-
-    
-    
 }
 
 
@@ -95,7 +88,7 @@ main{
 
 
 
-main > div > h1{
+main > h1{
 
     color: white;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.733);
@@ -129,7 +122,7 @@ main > div > h1{
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.733);
 }
 
-main > div > a {
+main > a {
     display: block;
     margin: auto;
     padding: 10px;
@@ -147,7 +140,7 @@ main > div > a {
 #cardapio{
     margin-top: 27px;
 }
-main > div > a :hover{
+main > a :hover{
     background-color: rgb(168, 4, 4);
     color: white;
     display: block;
@@ -157,7 +150,7 @@ main > div > a :hover{
    
 }
 
-main > div > a > p {
+main > a > p {
     padding: 10px;
 }
 
