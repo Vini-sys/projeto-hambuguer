@@ -129,29 +129,25 @@ main > div > a {
     display: block;
     margin: auto;
     padding: 10px;
-    border: 1px solid rgba(0, 0, 0, 0.411);
-    background-color: rgba(0, 0, 0, 0.774) ;
-    
-    text-align: center;
-    text-decoration: none;
-    color: white;
-    height: 75px;
-    
-}
-
-main > div > a :hover{
-    background-color: rgb(168, 4, 4);
-    color: white;
-    display: block;
-  
-    padding: 10px;
-    border: 1px solid rgba(0, 0, 0, 0.411);
- 
-    
+   
+    background-color: rgba(0, 0, 0, 0.87) ;
+    border: 1px solid black;
     text-align: center;
     text-decoration: none;
     color: white;
     height: 80px;
+    
+}
+
+#cardapio{
+    margin-top: 27px;
+}
+main > div > a :hover{
+    background-color: rgb(168, 4, 4);
+    color: white;
+    display: block;
+    
+  
     
    
 }
