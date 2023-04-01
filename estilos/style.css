@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-body,html{
+body{
     background-color: rgb(192, 122, 43);
     background-image: url(imagens/backgroundburger.jpg);
     
@@ -79,31 +79,14 @@ main{
     
 }
 
-
-  
-  
-    
- 
- 
-
-
-
 main > h1{
 
     color: white;
-    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.733);
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.747);
    font-size: 2em;
    padding: 5px;
 
-    
-    
-    
-
 }
-
-
-
-   
 
 #textos{
 
@@ -126,7 +109,7 @@ main > a {
     display: block;
     margin: auto;
     padding: 10px;
-    background-color: rgba(0, 0, 0, 0.425);
+    background-color: rgba(0, 0, 0, 0.11);
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.425);
     border: 1px solid black;
     
@@ -145,9 +128,6 @@ main > a :hover{
     color: white;
     display: block;
     
-  
-    
-   
 }
 
 main > a > p {
@@ -156,8 +136,22 @@ main > a > p {
 
 
 
+.imagehamb{
 
+    border-radius:20px;
+    margin: auto;
+    padding: 10px;
+    
+    width: 100px;
 
+}
+
+.subtitulomenu{
+    display: inline-block;
+    color: white;
+    font-size: 1.5em;
+    
+}
 
 
 
