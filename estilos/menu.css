@@ -46,6 +46,32 @@ h1{
     margin: auto;
 }
 
+#botoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+}
+
+div > #menu{
+    
+    cursor: pointer;
+    width: 40px;
+    
+}
+
+#voltar{
+
+     display: block;
+    cursor: pointer;
+    width: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+#voltar:hover{
+    color: blue;
+}
 
 
 

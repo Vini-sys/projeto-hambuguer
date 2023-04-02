@@ -61,6 +61,7 @@ header > nav > ul > li:hover {
 #menu{
     display: block;
     cursor: pointer;
+    width: 40px;
     
 }
 
