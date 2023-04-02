@@ -4,8 +4,9 @@
    
 }
 .opcoes{
-    display: block;
-    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgba(0, 0, 0, 0.219);
 }
 
 h1{
@@ -15,27 +16,12 @@ h1{
 }
 
 
-#opcao1{
-    display: flex;
-    flex-direction: row;
-    border: 1px solid rgba(0, 0, 0, 0.219);
-}
 
 #paragrafoopcao1{
     text-align: left;
 }
 
-#opcao2{
-    display: flex;
-    flex-direction: row;
-    border: 1px solid rgba(0, 0, 0, 0.219);
-}
 
-#opcao3{
-    display: flex;
-    flex-direction: row;
-    border: 1px solid rgba(0, 0, 0, 0.219);
-}
 
 .paragrafomenu{
     display: block;
