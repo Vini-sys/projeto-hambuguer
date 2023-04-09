@@ -1,12 +1,140 @@
 
 
-@media screen and (min-width: 780px) and (max-width: 940px){
+@media screen and (min-width: 780px){
 
     body,html{
     background-position: center center ;
-     
+    background-color:  rgba(165, 100, 26, 0.726);
+    }
+
+    
+    header{
+        background-color: rgba(167, 105, 33, 0.932);
+    padding: 50px;
+    height: 250px;
+    }
+
+    
+    
+
+    
+
+    #itens{
+        
+  
+        font-size: 1.5em;
+    }
+
+    
+
+    #itens > ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+        
+        
+        
+    }
+
+    header > h1 {
+    
+        font-size: 2.8em;
+    }
+
+    #itens > ul > li {
+        padding-top: 20px;
+        width: 200px;
+    }
+
+    #itens > ul > li > a{
+        display: block;
+        margin: auto;
+        width: 150px;
+        background-color: rgba(255, 0, 0, 0.801);
+    }
+
+ 
+    main{
+        background-color: rgba(0, 0, 0, 0.74);
+        position: relative;
     }
     
 
+    main > section > a{
 
+        
+        background-color: rgba(122, 77, 24, 0.945);
+       
+        border: 0.2px solid black;
+        border-radius: 10px;
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.658);
+        font-size: 1.8em;
+        width: 600px;
+    
+        
+
+    }
+
+    main > .fundoop{
+        position:absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%)
+    
+        
+    }
+
+    main > section.fundoop :hover{
+        background-color: rgba(0, 0, 0, 0.945);
+        
+        
+    }
+
+    main > h1 {
+        text-align: center;
+        font-size: 2em;
+    }
+
+    .paragrafomenu {
+        font-size: 1.8em;
+    }
+
+    .opcoes{
+        display: flex;
+        justify-content: center;
+    }
+
+    .secao {
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between ;
+    }
+
+    #botoes{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #menu{
+  
+    box-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.425);
+    text-align: center;
+    height: 30px;
+    width: 40px;
+    padding: 5px;
+    }
+
+    #menu:hover {
+        background-color: red;
+    }
+
+    #paragrafoprincipal{
+        display: none;
+    }
+
+
+
+    
+  
 }
