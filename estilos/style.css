@@ -94,6 +94,8 @@ main > h1{
 
 }
 
+
+
 .textos{
 
     
@@ -128,6 +130,10 @@ main > section > a {
 
 #cardapio{
     margin-top: 27px;
+}
+
+.cardápio > h1{
+    text-align: center
 }
 main > section.fundoop :hover{
     background-color: rgba(122, 77, 24, 0.945);
