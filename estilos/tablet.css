@@ -76,6 +76,10 @@
 
     }
 
+    main > h1{
+        font-size: 3em;
+    }
+
     main > .fundoop{
         position:absolute;
         left: 50%;
