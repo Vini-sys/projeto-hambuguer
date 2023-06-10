@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>menu</title>
     <link rel="stylesheet" href="../../estilos/style.css">
-    <link rel="stylesheet" href="../../estilos/menu.css">
+    <link rel="stylesheet" href="../../estilos/menumobile.css">
+    <link rel="stylesheet" href="../../estilos/menuall.css">
     
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
@@ -15,6 +16,8 @@
       rel="stylesheet">
     
       <link rel="stylesheet" href="../../estilos/tablet.css">
+
+      <script async src="../../codigo/codigo.js"></script>
       
 
 </head>
@@ -57,19 +60,28 @@
                         <h2 class="subtitulomenu">Hamburguer 1</h2>
         
                         <img class="imagehamb " src="../../estilos/imagens/hamb1.jpg" alt="Hamburguer1">
+                       
+                        <p class="money">R$7,00</p>
                     </div>
         
                     <p id="paragrafoopcao1" class="paragrafomenu">Carne, tomate, alface, bacon</p>
+                    <input type="button" value="+" class="add" id="hamb1">
+                   
+
+                   
                 </section>
                 <section class="opcoes">
         
         
                     <div class="secao">
-                        <h2 class="subtitulomenu"> Hamburguer 2 </h2>
+                        <h2 class="subtitulomenu">Hamburguer 2</h2>
                         <img class="imagehamb" src="../../estilos/imagens/hamb2.jpg" alt="">
+                        
+                        <p class="money">R$9,00</p>
                     </div>
         
                     <p class="paragrafomenu">Carne, tomate, alface, bacon, cebola, ovo, queijo</p>
+                    <input type="button" value="+" class="add" id="hamb2">
                 </section>
         
                 <section class="opcoes">
@@ -78,25 +90,97 @@
                         <h2 class="subtitulomenu">Hamburguer 3</h2>
         
                         <img class="imagehamb" src="../../estilos/imagens/hamb3.jpg" alt="Hamburguer3">
+                       
+
+                        <p class="money">R$13,00</p>
         
                     </div>
         
                     <p class="paragrafomenu">Carne, tomate, alface, bacon, cebola, ovo + fritas</p>
+                    <input type="button" value="+" class="add" id="hamb3">
                 </section>
                 <section class="opcoes">
         
                     <div class="secao">
                         <h2 class="subtitulomenu">Hamburgão</h2>
                         <img class="imagehamb" src="../../estilos/imagens/pexels-mounir-salah-14709723.jpg" alt="">
+                        
+                        <p class="money">R$15,00</p>
+                       
                     </div>
                     <p class="paragrafomenu"> Carne dupla, tomate, alface, bacon, milho, ovo, queijo, catupiry</p>
+                    <input type="button" value="+" class="add" id="hamburgao">
+                    
                      </section>
+                     
+                     
+             
+                     
+            <section class="carrinho">
+                
+                <h2>CARRINHO</h2>
+
+                <nav id="menu-carrinho">
+                    
+                        <table class="tabelacarrinho">
+                            <tr>
+                                <td>item</td>
+                                <td>preço</td>
+                                <td>Quantidade</td>
+                            </tr>
+
+                            <tbody>
+                                <!--<tr class="produto">
+                                    <td class="titulocart">Hamburguer 1</td>
+                                    <td class="preco">R$7,00</td>
+                                    <td><input type="number" name="quant" id="quant" class="quantidade" value="2"></td>
+                                    <td><input type="button" value="REMOVER" class="remover"></td>
+                                </tr>
+                                <tr class="produto">
+                                    <td class="titulocart">Hamburguer 2</td>
+                                    <td class="preco">R$9,00</td>
+                                    <td><input type="number" name="quant2" id="quant2" class="quantidade" value="3"></td>
+                                    <td><input type="button" value="REMOVER" class="remover"></td>
+                                </tr>
+                               </tbody>
+                            -->
+                            <tfooter>
+                                
+                                    <tr>
+                                        <td>PREÇO TOTAL</td>
+                                        <td class="precototal"></td>
+                                        <td></td>
+                                        <td><input class="botaofinalizar" type="button" value="FINALIZAR COMPRA" onclick="finalizar()"></td>
+                                    </tr>
+                            </tfooter>
+                         
+
+
+                        </table>
+                        
+                        
+                    
+                        
+                </nav>
+
+            
+            
+            </section>
+                     
+                     <div id="res">
+                     
+                    </div>
+               
         </main>
+
+       
+       
   
        
 
  
 </body>
+
 <script>
     function clickmenu(){
         if(itens.style.display == "block"){

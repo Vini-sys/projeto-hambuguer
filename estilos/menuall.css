@@ -1,0 +1,172 @@
+@media screen and (min-width: 780px) {
+    
+
+    
+
+    
+
+
+.cardápio{
+    background-color: rgba(71, 43, 12, 0.507);
+    height: 100%;
+    
+   
+}
+.opcoes{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgba(0, 0, 0, 0.219);
+    
+   
+    
+}
+
+main{
+    height:100%;
+}
+
+
+.secao{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1{
+    color: white;
+    border: 1px solid rgba(0, 0, 0, 0.219);
+    padding: 10px;
+}
+
+h2{
+    padding: 10px;
+}
+
+
+
+#paragrafoopcao1{
+    text-align: left;
+}
+
+
+
+.paragrafomenu{
+    display: block;
+    padding: 20px;
+    text-align: center;
+    font-size: 1em;
+    color: white;
+    margin: auto;
+}
+
+#botoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+}
+
+div > #menu{
+    
+    cursor: pointer;
+    width: 40px;
+    
+}
+
+.add{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    font-size:25pt;
+    text-align: center;
+}
+
+.add:hover{
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+}
+
+#voltar{
+
+     display: block;
+    cursor: pointer;
+    width: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+#voltar:hover{
+    color: blue;
+}
+
+.carrinho{
+    display: block;
+    margin: auto;
+    color: white;
+    text-align: center;
+    width: 800px;
+ 
+    border: 1px ;
+    
+   
+
+}
+
+
+.carrinho > nav>  table{
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 450px;
+    border: 1px solid black;
+    background-color: rgb(50, 79, 0);
+    border-collapse: collapse;
+}
+ td {
+    
+    border: 1px solid black;
+    padding: 10px;
+   
+}
+
+.remover{
+    padding: 1px;
+    border-radius: 10%;
+    background-color: red;
+    color: white;
+    box-shadow: 1px 1px 1px black;
+}
+
+.remover:hover{
+    cursor: pointer;
+    background-color: white;
+    color: red;
+    position: relative;
+    right: 2px;
+}
+
+.quantidade{
+    width: 50px;
+}
+
+.money{
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-size: 1.5em;
+}
+
+.botaofinalizar{
+    
+    border-radius: 5px;
+    
+}
+
+.botaofinalizar:hover{
+    background-color: rgb(64, 42, 2);
+    color: white;
+    cursor: pointer;
+}
+
+}

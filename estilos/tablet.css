@@ -5,6 +5,7 @@
     body,html{
     background-position: center center ;
     background-color:  rgba(165, 100, 26, 0.726);
+    
     }
 
     
@@ -12,6 +13,12 @@
         background-color: rgba(167, 105, 33, 0.932);
     padding: 50px;
     height: 250px;
+    }
+    
+    main{
+        height: 153vh;
+        width: 100vw;
+        
     }
 
     
@@ -137,6 +144,8 @@
     #paragrafoprincipal{
         display: none;
     }
+
+    
 
 
 
