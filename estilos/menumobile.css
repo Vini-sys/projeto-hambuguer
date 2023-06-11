@@ -1,11 +1,15 @@
-
-
-    
-
 body{
-    width: 100vw;
+    display: block;
+    width: 100%;
     overflow-x: hidden;
 }
+
+header{
+    width: 100vw;
+}    
+
+
+
 .cardápio{
     background-color: rgba(71, 43, 12, 0.507);
     
@@ -23,6 +27,9 @@ body{
 
 main{
     height:100%;
+    width: 100vw;
+
+    
 }
 
 
@@ -108,7 +115,7 @@ div > #menu{
     
     color: white;
     text-align: left;
-    width: 800px;
+    
  
     border: 1px ;
     
@@ -118,16 +125,16 @@ div > #menu{
 
 
 .carrinho > nav>  table{
-    
+    display: block;
     text-align: center;
     width: 500px;
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.351);
     background-color: rgb(50, 79, 0);
     border-collapse: collapse;
 }
  td {
     
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.121);
     padding: 10px;
    
 }
