@@ -32,6 +32,10 @@ main{
     
 }
 
+.subtitulomenu{
+    font-size: 1em
+}
+
 
 .secao{
     display: flex;
