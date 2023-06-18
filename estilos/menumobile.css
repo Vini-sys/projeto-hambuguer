@@ -70,7 +70,7 @@ h2{
     padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    font-size: 1em;
+    font-size: 0.8em;
     color: white;
     margin: auto;
 }
@@ -94,10 +94,10 @@ div > #menu{
 .add{
     display: block;
     margin: auto;
-    width: 40px;
-    height: 30px;
+    width: 68px;
+    height: 20px;
     padding: 0px;
-    font-size: 20pt;
+    font-size: 0.9em;
     
 }
 
@@ -143,6 +143,7 @@ div > #menu{
 
 .carrinho > nav>  table{
     display: block;
+    margin: auto;
     text-align: center;
     
     border: 1px solid rgba(0, 0, 0, 0.011);
@@ -152,8 +153,8 @@ div > #menu{
     position: fixed;
     bottom: 0;
     
-    
-    width: 300px;
+    padding: px;
+    width: 500px;
    
     
 }
@@ -161,16 +162,16 @@ div > #menu{
 #sacola{
     position: fixed;
     bottom: 0;
-    left: 0;
-    left: 10%;
+   
+    right: 10%;
     margin-left: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     display: block;
     text-align: center;
     padding: 10px;
     width: 40px;
     background-color: rgba(255, 128, 0, 0.819);
-    opacity: 40%;
+    opacity: 60%;
     
     
      
@@ -184,8 +185,12 @@ div > #menu{
      }
 
 .fechar{
+        display: block;
+        
+        
         width: 50px;
         height: 20px;
+
         
     }
 .fechar:hover{
@@ -196,11 +201,18 @@ div > #menu{
 
 
  td {
+    
     background-color: rgb(50, 79, 0);
     border: 1px solid rgba(0, 0, 0, 0.121);
     padding: 5px;
     width: 50px;
    
+}
+
+tr{
+    display: block;
+    
+    justify-content: center;
 }
 
 .remover{
