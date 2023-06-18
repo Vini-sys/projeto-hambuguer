@@ -112,13 +112,15 @@
                     <input type="button" value="+" class="add" id="hamburgao">
                     
                      </section>
+
+                   
                      
-                     
+                     <span class="material-icons" id="sacola" onclick="abrir()">shopping_cart</span>
              
-                     
-            <section class="carrinho">
+                            
+            <section class="carrinho" id="car">
                 
-                <h2>CARRINHO</h2>
+    
 
                 <nav id="menu-carrinho">
                     
@@ -127,6 +129,7 @@
                                 <td>item</td>
                                 <td>preço</td>
                                 <td>Quantidade</td>
+                                <td><input type="button" value="Fechar" class="fechar" onclick="abrir()"></td>
                             </tr>
 
                             <tbody>
@@ -193,7 +196,24 @@
         }
 
 
+    
     }
+
+    function abrir(){
+        
+    
+        if(car.style.display == "block"){
+        car.style.display = "none"}
+
+        else {
+            car.style.display = "block"
+        }
+
+
+    
+    }
+
+
 
     
     

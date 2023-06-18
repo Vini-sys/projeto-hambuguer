@@ -35,7 +35,7 @@ main{
 
 .secao{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
 }
 
@@ -111,29 +111,80 @@ div > #menu{
 }
 
 .carrinho{
-    display: block;
+    display: none;
     
     color: white;
     text-align: left;
     
-    
+    padding-top: 50px;
     border: 1px ;
     
+ 
    
 
+}
+
+.carrinho > nav{
+    background-color: rgb(50, 79, 0);
+    
 }
 
 
 .carrinho > nav>  table{
     display: block;
     text-align: center;
-    width: 100px;
+    
     border: 1px solid rgba(0, 0, 0, 0.011);
     
+    background-color: rgb(50, 79, 0);
     border-collapse: collapse;
-}
- td {
+    position: fixed;
+    bottom: 0;
+    left: 0%;
+    height: 100vh;
+   
     
+}
+
+#sacola{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    left: 10%;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    width: 40px;
+    background-color: rgba(255, 128, 0, 0.819);
+    opacity: 40%;
+    
+    
+     
+    
+ }
+ 
+ #sacola:hover{
+     cursor: pointer;
+     background-color: rgb(231, 224, 213);
+     margin-bottom: 25px;
+     }
+
+.fechar{
+        width: 50px;
+        height: 20px;
+        
+    }
+.fechar:hover{
+        background-color: red;
+    }
+    
+
+
+
+ td {
+    background-color: rgb(50, 79, 0);
     border: 1px solid rgba(0, 0, 0, 0.121);
     padding: 10px;
    

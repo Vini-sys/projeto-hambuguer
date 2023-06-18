@@ -70,13 +70,22 @@ function addprod(event){
     
     let newcartproduto = document.createElement("tr")
     newcartproduto.classList.add("produto")
-
+ 
     newcartproduto.innerHTML = `
-    <td>${produtonome}</td>
-    <td class="preco">${produtovalor}</td>
-    <td><input type="number" name="quant" id="quant" class="quantidade" value="1"></td>
-    <td><input type="button" value="-" class="remover"></td>
-    </tr>
+   
+     
+             
+              
+                    <td>${produtonome}</td>
+                    <td class="preco">${produtovalor}</td>
+                    <td><input type="number" name="quant" id="quant" class="quantidade" value="1"></td>
+                    
+                    <td><input type="button" value="-" class="remover"></td>
+                    </tr>
+            
+       
+     
+    
     `
 
     const tabelabody = document.querySelector(".tabelacarrinho tbody")
@@ -114,3 +123,6 @@ function updatetotal(){
     console.log(tot)
 
 }
+
+
+
