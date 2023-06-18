@@ -32,6 +32,10 @@ main{
     
 }
 
+.imagehamb{
+    display: none;
+}
+
 .subtitulomenu{
     font-size: 1em
 }

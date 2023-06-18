@@ -215,6 +215,9 @@ div > #menu{
     padding: 5px;
     
 }
+.imagehamb{
+    display: block;
+}
 
 .botaofinalizar:hover{
     background-color: rgb(64, 42, 2);
