@@ -57,6 +57,12 @@ h2{
     padding: 10px;
 }
 
+.produtonome{
+    padding: 0px;
+    font-size: 10pt;
+    
+}
+
 
 
 #paragrafoopcao1{
@@ -164,12 +170,13 @@ div > #menu{
     bottom: 0;
    
     right: 10%;
-    margin-left: 10px;
-    margin-bottom: 30px;
+    bottom: 50px;
+ 
     display: block;
     text-align: center;
     padding: 10px;
     width: 40px;
+    height: 40px;
     background-color: rgba(255, 128, 0, 0.819);
     opacity: 60%;
     
@@ -202,16 +209,16 @@ div > #menu{
 
  td {
     
-    background-color: rgb(50, 79, 0);
-    border: 1px solid rgba(0, 0, 0, 0.121);
-    padding: 5px;
+    background-color: rgba(50, 79, 0, 0.891);
+    border: 1px solid rgba(0, 0, 0, 0);
+    padding: 20px;
     width: 50px;
    
 }
 
 tr{
     display: block;
-    
+   
     justify-content: center;
 }
 

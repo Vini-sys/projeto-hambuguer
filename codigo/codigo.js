@@ -76,7 +76,7 @@ function addprod(event){
      
              
               
-                    <td>${produtonome}</td>
+                    <td class="produtonome">${produtonome}</td>
                     <td class="preco">${produtovalor}</td>
                     <td><input type="number" name="quant" id="quant" class="quantidade" value="1"></td>
                     
