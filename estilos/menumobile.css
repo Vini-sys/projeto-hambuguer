@@ -247,11 +247,11 @@ tr{
 
 .money{
     text-align: center;
-    color: white;
-    padding: 0px;
+    color: rgb(246, 255, 0);
+    padding: 10px;
     font-size: 1.2em;
  
-    height: 30px;
+    height: 10px;
 }
 
 .botaofinalizar{
